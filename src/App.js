@@ -88,7 +88,7 @@ function App() {
     }
   }, [isMountedRef]);
 
-  const handleSaveAddress = async (id) => {console.log('save id', id)
+  const handleSaveAddress = async (id) => {
     try {
       let response;
 
